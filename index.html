@@ -42,19 +42,21 @@
                 </div>
                 <div class="input">
                     <label for="pass">PASSWORD</label>
-                    <input class="pass" type="password" id="pass">
+                    <input class="pass" type="password" id="pass" minlength="4" maxlength="8" required>
                 </div>
                 <div class="input">
+                    <div class="message">Confirm again</div>
                     <label for="confirm_pass">CONFIRM PASSWORD</label>
-                    <input class="pass" type="password" id="confirm_pass"></div>
+                    <input class="pass" type="password" id="confirm_pass" required></div>
                 </div>
             </div>
             
         <div class="section">
-            <button type="button">Create Account</button>
+            <button type="submit">Create Account</button>
             <p id="withSpan">Already have an account?<span><bold>Log in</bold></span></p>
         </div>
     </form>
     
 </body>
+<script src="form.js"></script>
 </html>
